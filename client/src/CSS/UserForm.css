@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.userform{
+    background-image: url('../../public/images/homeimg.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height:530px;
+    color: white;
+    padding: 20px;
+}
+
+.subform{
+    margin-top:70px;
+    height:360px;
+    width: 350px;
+    background-color: rgb(88, 87, 87);
+    border-radius:10px;
+}
+.subform1{
+    margin-top:70px;
+    height:420px;
+    width: 350px;
+    background-color: rgb(88, 87, 87);
+    border-radius:10px;
+}
+
+input{
+    border: none;
+}
