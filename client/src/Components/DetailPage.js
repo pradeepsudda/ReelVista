@@ -21,7 +21,7 @@ const DetailPage = () => {
       const options = {
         method: 'GET',
         headers: {
-          'X-RapidAPI-Key': '9f6bd92651msh162d4c00297ddb5p10dd79jsn6458940e10d0',
+          'X-RapidAPI-Key': `${config.KEY}`,
           'X-RapidAPI-Host': 'imdb8.p.rapidapi.com',
         },
       };
