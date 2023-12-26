@@ -20,13 +20,11 @@ const Response = () => {
   useEffect(() => {
     setLoading(true);
     async function fetchData() {
-  //     // const url = 'https://imdb8.p.rapidapi.com/auto-complete?q=game%20oēf%20thr';
-  //     const url = 'https://imdb8.p.rapidapi.com/auto-complete?q=harry potter';
   const url = `https://imdb8.p.rapidapi.com/auto-complete?q=${searchQuery}`;
       const options = {
         method: 'GET',
         headers: {
-          'X-RapidAPI-Key': '9f6bd92651msh162d4c00297ddb5p10dd79jsn6458940e10d0',
+          'X-RapidAPI-Key': `${config.KEY}`,
           'X-RapidAPI-Host': 'imdb8.p.rapidapi.com',
         },
       };
